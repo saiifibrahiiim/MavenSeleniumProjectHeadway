@@ -1,0 +1,10 @@
+{
+  "test1": {
+    "searchData1": "Giza systems",
+    "expected1": "Giza"},
+
+  "test2": {
+    "searchData2": "Saif",
+    "expectedResult2": "SAIF"
+  }
+}
