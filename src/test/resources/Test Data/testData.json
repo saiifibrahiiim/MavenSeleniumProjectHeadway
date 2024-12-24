@@ -4,7 +4,7 @@
     "expected1": "Giza"},
 
   "test2": {
-    "searchData2": "Saif",
-    "expectedResult2": "SAIF"
+    "searchData2": "facebook login",
+    "expectedResult2": "Log into Facebook"
   }
 }

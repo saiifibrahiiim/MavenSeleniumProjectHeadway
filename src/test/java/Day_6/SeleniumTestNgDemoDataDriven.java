@@ -31,8 +31,8 @@ public class SeleniumTestNgDemoDataDriven {
     public void testSearch2() {
         driver.findElement(By.id("APjFqb")).sendKeys(testData.getTestData("test2.searchData2"), Keys.ENTER);
 
-        String firstSearchResultText = driver.findElement(By.xpath("//*[@id=\"ixcYae\"]/div/div/div/div/div/div/div[1]/div/span/a/div/div/div/div[1]/span")).getText();
-        Assert.assertEquals(firstSearchResultText, "test2.expectedResults2");
+        String firstSearchResultText = driver.findElement(By.xpath("//*[@id=\"ixcYae\"]/div/div/div/div/div/div/div[1]/div/span/a/h3")).getText();
+        Assert.assertEquals(firstSearchResultText, "Log into Facebook");
     }
 
 
